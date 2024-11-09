@@ -105,7 +105,7 @@ First, manually I set:
 - IP Address: 192.168.1.60/26
 
 Then, I set the DHCP service to **active** and configured the settings to the following based on the calculations:
-![[Server1_DHCP.png]]
+View ![[Server1_DHCP.png]]
 
 
 #### PC & Printer Configuration
@@ -113,7 +113,7 @@ Then, I set the DHCP service to **active** and configured the settings to the fo
 Nothing much done here.
 Simply set all PC's & Printer to dynamically set IP Addresses via DHCP as follows:
 
-![[PC1_DHCP.png]]
+View ![[PC1_DHCP.png]]
 
 With this Subnet 1 was completed.
 
@@ -202,7 +202,7 @@ Directly after doing this communication is now possible both ways.
 
 To cross check if your pings are going across the intended routes you can use the `tracert` command as follows:
 
-![[tracert_PC1_to_RouterD.png]]
+View ![[tracert_PC1_to_RouterD.png]]
 
 
 Now, the same steps as above are done for Bottom Subnets i.e. subnet 3 and subnet 4.
